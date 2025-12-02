@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-11-24" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="fr_FR">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd15" name="Notes" width="20" order="-1"/>
         <field id="tpd3" name="Nom" width="200" order="0"/>
         <field id="tpd4" name="Date de début" width="75" order="1"/>
         <field id="tpd5" name="Date de fin" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
@@ -38,7 +38,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="12788b18447946a79464ca87e84214f4" name="Recherche de solution" meeting="false" start="2025-11-28" duration="1" complete="0" expand="true"/>
+        <task id="0" uid="12788b18447946a79464ca87e84214f4" name="Recherche de solution" meeting="false" start="2025-11-28" duration="1" complete="0" webLink="https%3A%2F%2Fjadeonfroy.github.io%2Fsysteme_arrosage_auto%2FMVHtmlExport%2FArrosage_enterr__.htm" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="jade" function="Default:1" contacts="" phone=""/>
@@ -49,5 +49,4 @@
     <vacations/>
     <previous/>
     <roles roleset-name="Default"/>
-    <roles roleset-name="SoftwareDevelopment"/>
 </project>
